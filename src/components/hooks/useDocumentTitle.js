@@ -6,7 +6,7 @@ export const useDocumentTitle = (title) => {
 
   React.useEffect(() => {
     document.title = sitePrefix + pageTitle;
-  }, [pageTitle]);
+  }, [pageTitle, sitePrefix]);
 
   return [pageTitle, setPageTitle]
 };
