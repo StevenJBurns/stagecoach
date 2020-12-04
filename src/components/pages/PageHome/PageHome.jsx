@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from 'prop-types';
 import BarbedWire from "../../../assets/images/barbed-wire.jpg";
 import './PageHome.scss';
 
