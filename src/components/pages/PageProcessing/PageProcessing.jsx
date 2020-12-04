@@ -1,8 +1,6 @@
 import React from "react";
-import PropTypes from 'prop-types';
 import { BeefCutsSVG } from "../../ui/BeefCutsSVG.jsx";
 import { PorkCutsSVG } from "../../ui/PorkCutsSVG.jsx";
-/* Data */
 import { processingCutsBeef, processingCutsPork } from "../../../data/meat-processing-cuts.js";
 import CutsheetBeefPDF from "../../../assets/documents/stagecoach-cutsheet-beef.pdf";
 import CutsheetPorkPDF from "../../../assets/documents/stagecoach-cutsheet-pork.pdf";
